@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Hack;
+  src: url("/usr/share/fonts/TTF/Hack-Regular.ttf")
+}
+
+html {
+  font-family: Hack;
+}
+
+h1 {
+  color: #31748f; 
+  text-align: center;
+  margin: 11em;
+}
+
+#header {
+  color: #31748f;
+}
+
+.img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+}
+
+.img img {
+max-height: 100%;
+  max-width: 100%;
+}
+
+.boxed {
+  border: 3px;
+  border-style:solid;
+  border-color:#eb6f92;
+  border-radius: 700px;
+  margin: -20em 2em;
+  padding: 1em;
+}
+
+a {
+  color: #ebbcba
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
